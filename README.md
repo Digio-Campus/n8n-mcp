@@ -15,8 +15,8 @@ Este proyecto implementa un servidor MCP que permite gestionar workflows de n8n 
 
 1. Clona el repositorio:
 ```bash
-git clone <url-del-repositorio>
-cd n8n-mcp-server
+git clone https://github.com/Digio-Campus/n8n-mcp.git
+cd n8n-mcp
 ```
 
 2. Instala las dependencias:
@@ -52,15 +52,3 @@ El servidor requiere las siguientes variables de entorno:
 
 - `N8N_URL`: URL de tu instancia de n8n (por defecto: http://localhost:5678)
 - `N8N_API_KEY`: Tu clave API de n8n
-
-## Contribuir
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
-3. Commit tus cambios (`git commit -am 'Añadir nueva funcionalidad'`)
-4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Crea un Pull Request
-
-## Licencia
-
-[Especifica tu licencia aquí]
